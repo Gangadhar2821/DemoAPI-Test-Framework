@@ -1,0 +1,17 @@
+com\api\models\request\SignUpRequest.class
+com\api\base\BaseService.class
+com\api\tests\GetProfileAPITest.class
+com\api\listeners\TestListener.class
+com\api\models\request\SignUpRequest$Builder.class
+com\api\services\UserProfileManagementService.class
+com\api\tests\ForgetPasswordAPITest.class
+com\api\models\request\UserProfileRequest$Builder.class
+com\api\services\AuthenticationService.class
+com\api\tests\SignUpAPITest.class
+com\api\models\request\LoginRequest.class
+com\api\filters\LoggingFilter.class
+com\api\model\response\UserProfileResponse.class
+com\api\models\request\UserProfileRequest.class
+com\api\model\response\LoginResponse.class
+com\api\tests\UpdateProfileAPITest.class
+com\api\tests\LoginAPITest.class
