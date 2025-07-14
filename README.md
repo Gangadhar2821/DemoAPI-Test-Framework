@@ -1,4 +1,4 @@
-# 🚀 Demo_API_Test_Framework
+# 🚀 DemoAPI-Test-Framework
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Java](https://img.shields.io/badge/Java-21-blue)
