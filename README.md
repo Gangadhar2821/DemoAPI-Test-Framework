@@ -9,7 +9,7 @@
 
 ## 📌 Project Overview
 
-**Demo_API_Test_Framework** is a scalable and maintainable **REST API Test Automation Framework** designed using a **hybrid architecture**. It leverages **TestNG**, **Rest Assured**, **POJO models**, and design patterns like **Service Object Model**, **Builder**, and **Singleton**.
+**DemoAPI-Test-Framework** is a scalable and maintainable **REST API Test Automation Framework** designed using a **hybrid architecture**. It leverages **TestNG**, **Rest Assured**, **POJO models**, and design patterns like **Service Object Model**, **Builder**, and **Singleton**.
 
 This framework is built for **modularity**, **reusability**, and **easy integration**, with robust logging, reporting, and request/response filtering capabilities.
 
@@ -99,7 +99,7 @@ This framework is built for **modularity**, **reusability**, and **easy integrat
 
 ## Steps:
 Step 1: Clone the Repository
-https://github.com/Gangadhar2821/Demo_API_Test_Framework.git
+https://github.com/Gangadhar2821/DemoAPI-Test-Framework.git
 
 Step 2: Navigate to the project directory and install dependencies and run 
 "mvn clean install" command
