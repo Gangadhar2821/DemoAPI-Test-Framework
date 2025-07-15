@@ -11,7 +11,7 @@ import io.restassured.response.Response;
 public class SignUpAPITest {
 	@Test(description = "Verify if Signup API is working")
 	public void signUp() {
-		SignUpRequest signUpRequest = new SignUpRequest.Builder().username("mahdggdty126234").email("gmiistrrygfhna@yahoo.com")
+		SignUpRequest signUpRequest = new SignUpRequest.Builder().username("mahdjgg7dty126234").email("miistrirygfhna@yahoo.com")
 				.firstName("Ganga").lastName("b").password("Gangad@1234").mobileNumber("9506573915").build();
 
 		AuthenticationService service = new AuthenticationService();
