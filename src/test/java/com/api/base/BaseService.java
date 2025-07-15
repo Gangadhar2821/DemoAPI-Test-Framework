@@ -36,5 +36,5 @@ public class BaseService {
 	protected Response putRequest(Object payLoad, String endPoint) {
 		return requestSpecification.contentType(ContentType.JSON).body(payLoad).put(endPoint);
 	}
-
+	
 }

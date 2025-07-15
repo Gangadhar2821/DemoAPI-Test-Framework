@@ -3,11 +3,11 @@
 <suite name="Failed suite [Demo Bank API Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="API_Test(failed)">
     <classes>
-      <class name="com.api.tests.SignUpAPITest">
+      <class name="com.api.tests.CreateUserAPITest">
         <methods>
-          <include name="signUp"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- com.api.tests.SignUpAPITest -->
+      </class> <!-- com.api.tests.CreateUserAPITest -->
     </classes>
   </test> <!-- API_Test(failed) -->
 </suite> <!-- Failed suite [Demo Bank API Test Suite] -->

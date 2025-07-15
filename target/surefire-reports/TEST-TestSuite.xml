@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="4.502" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="3.831" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Automation_Redefined\Demobank_Api_Automation\target\test-classes;D:\Automation_Redefined\Demobank_Api_Automation\target\classes;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gangadhar.b\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gangadhar.b\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\gangadhar.b\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\gangadhar.b\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gangadhar.b\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gangadhar.b\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gangadhar.b\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;"/>
+    <property name="java.class.path" value="D:\Automation_Redefined\Demobank_Api_Automation\target\test-classes;D:\Automation_Redefined\Demobank_Api_Automation\target\classes;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gangadhar.b\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gangadhar.b\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\gangadhar.b\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\gangadhar.b\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gangadhar.b\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gangadhar.b\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gangadhar.b\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\gangadhar.b\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gangadhar.b\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gangadhar.b\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gangadhar.b\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gangadhar.b\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\gangadhar.b\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\gangadhar.b\AppData\Local\Temp\surefire14701870508028385637\surefirebooter-20250714153416973_3.jar C:\Users\gangadhar.b\AppData\Local\Temp\surefire14701870508028385637 2025-07-14T15-34-16_744-jvmRun1 surefire-20250714153416973_1tmp surefire_0-20250714153416973_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\gangadhar.b\AppData\Local\Temp\surefire4714528520070433328\surefirebooter-20250714184549259_3.jar C:\Users\gangadhar.b\AppData\Local\Temp\surefire4714528520070433328 2025-07-14T18-45-49_041-jvmRun1 surefire-20250714184549259_1tmp surefire_0-20250714184549259_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\Automation_Redefined\Demobank_Api_Automation\target\test-classes;D:\Automation_Redefined\Demobank_Api_Automation\target\classes;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gangadhar.b\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gangadhar.b\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\gangadhar.b\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\gangadhar.b\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gangadhar.b\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gangadhar.b\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gangadhar.b\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;"/>
+    <property name="surefire.test.class.path" value="D:\Automation_Redefined\Demobank_Api_Automation\target\test-classes;D:\Automation_Redefined\Demobank_Api_Automation\target\classes;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gangadhar.b\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gangadhar.b\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\gangadhar.b\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\gangadhar.b\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gangadhar.b\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gangadhar.b\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gangadhar.b\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\gangadhar.b\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gangadhar.b\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gangadhar.b\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gangadhar.b\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gangadhar.b\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\gangadhar.b\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\gangadhar.b"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\gangadhar.b\AppData\Local\Temp\surefire14701870508028385637\surefirebooter-20250714153416973_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\gangadhar.b\AppData\Local\Temp\surefire4714528520070433328\surefirebooter-20250714184549259_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -50,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-21\bin;D:\Softwares\apache-maven-3.9.9\bin;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\gangadhar.b\AppData\Local\Android\Sdk;C:\Users\gangadhar.b\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\dotnet\;C:\Users\gangadhar.b\AppData\Local\Microsoft\WindowsApps;C:\Users\gangadhar.b\AppData\Roaming\npm;D:\Softwares\allure-2.34.0\bin;C:\Users\gangadhar.b\AppData\Local\Programs\Git\cmd;C:\Users\gangadhar.b\AppData\Local\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/gangadhar.b/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin/server;C:/Users/gangadhar.b/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin;C:\Program Files\Java\jdk-21\bin;D:\Softwares\apache-maven-3.9.9\bin;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\gangadhar.b\AppData\Local\Android\Sdk;C:\Users\gangadhar.b\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-21\bin;D:\Softwares\apache-maven-3.9.9\bin;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\gangadhar.b\AppData\Local\Android\Sdk;C:\Users\gangadhar.b\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-21\bin;D:\Softwares\apache-maven-3.9.9\bin;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\gangadhar.b\AppData\Local\Android\Sdk;C:\Users\gangadhar.b\AppData\Local\Android\Sdk\platform-tools;C:\Users\gangadhar.b\AppData\Local\Microsoft\WindowsApps;C:\Users\gangadhar.b\AppData\Roaming\npm;D:\Softwares\allure-2.34.0\bin;C:\Users\gangadhar.b\AppData\Local\Programs\Git\cmd;C:\Users\gangadhar.b\AppData\Local\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Windows\System32;;."/>
     <property name="suite" value="suite"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
@@ -59,16 +59,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="getProfile" classname="com.api.tests.GetProfileAPITest" time="2.25">
-    <system-out><![CDATA[2025-07-14 15:34:18 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
-2025-07-14 15:34:18 [main] INFO  com.api.listeners.TestListener - Started..!getProfile
-2025-07-14 15:34:18 [main] INFO  com.api.listeners.TestListener - Description!!Verify Getprofile API is working 
-2025-07-14 15:34:19 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
-2025-07-14 15:34:19 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+  <testcase name="loginTest" classname="com.api.tests.LoginAPITest" time="1.825">
+    <system-out><![CDATA[2025-07-14 18:45:50 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-14 18:45:51 [TestNG-test-API_Test-2] INFO  com.api.listeners.TestListener - Started..!updateProfile
+2025-07-14 18:45:51 [TestNG-test-API_Test-3] INFO  com.api.listeners.TestListener - Started..!loginTest
+2025-07-14 18:45:51 [TestNG-test-API_Test-1] INFO  com.api.listeners.TestListener - Started..!getProfile
+2025-07-14 18:45:51 [TestNG-test-API_Test-2] INFO  com.api.listeners.TestListener - Description!!Verify Update Prifile API is working
+2025-07-14 18:45:51 [TestNG-test-API_Test-3] INFO  com.api.listeners.TestListener - Description!!Verify if Login-API is working 
+2025-07-14 18:45:51 [TestNG-test-API_Test-1] INFO  com.api.listeners.TestListener - Description!!Verify Getprofile API is working 
+2025-07-14 18:45:52 [TestNG-test-API_Test-3] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+2025-07-14 18:45:52 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+2025-07-14 18:45:52 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+2025-07-14 18:45:52 [TestNG-test-API_Test-3] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
 Content-Type=application/json
-2025-07-14 15:34:19 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"username":"Gangadhar","password":"@Donna2128"}
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
+2025-07-14 18:45:52 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-14 18:45:52 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-14 18:45:52 [TestNG-test-API_Test-3] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"username":"Gangadhar","password":"@Donna2128"}
+2025-07-14 18:45:52 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"username":"Gangadhar","password":"@Donna2128"}
+2025-07-14 18:45:52 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"username":"Gangadhar","password":"@Donna2128"}
+2025-07-14 18:45:52 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-14 18:45:52 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-14 18:45:52 [TestNG-test-API_Test-3] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-14 18:45:52 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -84,11 +98,49 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Mon, 14 Jul 2025 10:04:20 GMT
+Date=Mon, 14 Jul 2025 13:15:52 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjAsImV4cCI6MTc1MjQ5MTA2MH0.5hZUSJGFAqG5xvAZebU26pAqd8nb_7V5FD-f9uI2xhw",
+2025-07-14 18:45:52 [TestNG-test-API_Test-3] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 14 Jul 2025 13:15:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-07-14 18:45:52 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 14 Jul 2025 13:15:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-07-14 18:45:52 [TestNG-test-API_Test-3] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc",
     "type": "Bearer",
     "id": 2010,
     "username": "Gangadhar",
@@ -97,13 +149,72 @@ Connection=keep-alive
         "ROLE_USER"
     ]
 }
-eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjAsImV4cCI6MTc1MjQ5MTA2MH0.5hZUSJGFAqG5xvAZebU26pAqd8nb_7V5FD-f9uI2xhw
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjAsImV4cCI6MTc1MjQ5MTA2MH0.5hZUSJGFAqG5xvAZebU26pAqd8nb_7V5FD-f9uI2xhw
+2025-07-14 18:45:52 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc",
+    "type": "Bearer",
+    "id": 2010,
+    "username": "Gangadhar",
+    "email": "vijay123@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-07-14 18:45:52 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc",
+    "type": "Bearer",
+    "id": 2010,
+    "username": "Gangadhar",
+    "email": "vijay123@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc",
+    "type": "Bearer",
+    "id": 2010,
+    "username": "Gangadhar",
+    "email": "vijay123@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc",
+    "type": "Bearer",
+    "id": 2010,
+    "username": "Gangadhar",
+    "email": "vijay123@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+vijay123@gmail.com
+=================================================================
+2010
+2025-07-14 18:45:52 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+2025-07-14 18:45:52 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+2025-07-14 18:45:52 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc
 Accept=*/*
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
+2025-07-14 18:45:52 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc
+Accept=*/*
+2025-07-14 18:45:52 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-14 18:45:52 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getProfile" classname="com.api.tests.GetProfileAPITest" time="2.001">
+    <system-out><![CDATA[2025-07-14 18:45:52 [TestNG-test-API_Test-3] INFO  com.api.listeners.TestListener - Passed..!loginTest
+2025-07-14 18:45:52 [TestNG-test-API_Test-3] INFO  com.api.listeners.TestListener - Description!!Verify if Login-API is working 
+2025-07-14 18:45:53 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-14 18:45:53 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-14 18:45:53 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -119,10 +230,45 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Mon, 14 Jul 2025 10:04:20 GMT
+Date=Mon, 14 Jul 2025 13:15:52 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+2025-07-14 18:45:53 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 14 Jul 2025 13:15:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-07-14 18:45:53 [TestNG-test-API_Test-1] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2010,
+    "username": "Gangadhar",
+    "email": "vijay123@gmail.com",
+    "firstName": "Hello",
+    "lastName": "Hai",
+    "mobileNumber": "8888888882"
+}
+2025-07-14 18:45:53 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2010,
+    "username": "Gangadhar",
+    "email": "vijay123@gmail.com",
+    "firstName": "Hello",
+    "lastName": "Hai",
+    "mobileNumber": "8888888882"
+}
+{
     "id": 2010,
     "username": "Gangadhar",
     "email": "vijay123@gmail.com",
@@ -131,199 +277,20 @@ Connection=keep-alive
     "mobileNumber": "8888888882"
 }
 Hello
-]]></system-out>
-    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
-SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="signUp" classname="com.api.tests.SignUpAPITest" time="0.237">
-    <system-out><![CDATA[2025-07-14 15:34:20 [main] INFO  com.api.listeners.TestListener - Passed..!getProfile
-2025-07-14 15:34:20 [main] INFO  com.api.listeners.TestListener - Description!!Verify Getprofile API is working 
-2025-07-14 15:34:20 [main] INFO  com.api.listeners.TestListener - Started..!signUp
-2025-07-14 15:34:20 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Signup API is working
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
-Content-Type=application/json
-2025-07-14 15:34:20 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"username":"maddy12234","password":"Gangad@1234","email":"gmiisha@yahoo.com","firstName":"Ganga","lastName":"b","mobileNumber":"9506573915"}
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Access-Control-Allow-Origin=https://swift.techwithjatin.com
-Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Max-Age=3600
-Access-Control-Allow-Headers=Authorization, Content-Type, Accept
-Access-Control-Allow-Credentials=true
-X-Content-Type-Options=nosniff
-X-XSS-Protection=0
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=text/plain;charset=UTF-8
-Content-Length=29
-Date=Mon, 14 Jul 2025 10:04:21 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Body:User registered successfully!
-User registered successfully!
-]]></system-out>
-  </testcase>
-  <testcase name="forgetPassword" classname="com.api.tests.ForgetPasswordAPITest" time="0.0">
-    <system-out><![CDATA[2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Passed..!signUp
-2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Signup API is working
-2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Started..!forgetPassword
-2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Description!!Verify if forget password API is working
-]]></system-out>
-  </testcase>
-  <testcase name="updateProfile" classname="com.api.tests.UpdateProfileAPITest" time="0.516">
-    <system-out><![CDATA[2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Passed..!forgetPassword
-2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Description!!Verify if forget password API is working
-2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Started..!updateProfile
-2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Description!!Verify Update Prifile API is working
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
-Content-Type=application/json
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"username":"Gangadhar","password":"@Donna2128"}
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Access-Control-Allow-Origin=https://swift.techwithjatin.com
-Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Max-Age=3600
-Access-Control-Allow-Headers=Authorization, Content-Type, Accept
-Access-Control-Allow-Credentials=true
-X-Content-Type-Options=nosniff
-X-XSS-Protection=0
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=application/json
-Transfer-Encoding=chunked
-Date=Mon, 14 Jul 2025 10:04:21 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjEsImV4cCI6MTc1MjQ5MTA2MX0.ygBLUtgcMWXYDtU9oibjBThAYoPUVdho5jWXJ5eJyUU",
-    "type": "Bearer",
-    "id": 2010,
-    "username": "Gangadhar",
-    "email": "vijay123@gmail.com",
-    "roles": [
-        "ROLE_USER"
-    ]
-}
-eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjEsImV4cCI6MTc1MjQ5MTA2MX0.ygBLUtgcMWXYDtU9oibjBThAYoPUVdho5jWXJ5eJyUU
-{
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjEsImV4cCI6MTc1MjQ5MTA2MX0.ygBLUtgcMWXYDtU9oibjBThAYoPUVdho5jWXJ5eJyUU",
-    "type": "Bearer",
-    "id": 2010,
-    "username": "Gangadhar",
-    "email": "vijay123@gmail.com",
-    "roles": [
-        "ROLE_USER"
-    ]
-}
 =================================================================
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjEsImV4cCI6MTc1MjQ5MTA2MX0.ygBLUtgcMWXYDtU9oibjBThAYoPUVdho5jWXJ5eJyUU
-Accept=*/*
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Access-Control-Allow-Origin=https://swift.techwithjatin.com
-Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Max-Age=3600
-Access-Control-Allow-Headers=Authorization, Content-Type, Accept
-Access-Control-Allow-Credentials=true
-X-Content-Type-Options=nosniff
-X-XSS-Protection=0
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=application/json
-Transfer-Encoding=chunked
-Date=Mon, 14 Jul 2025 10:04:21 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
-    "id": 2010,
-    "username": "Gangadhar",
-    "email": "vijay123@gmail.com",
-    "firstName": "Hello",
-    "lastName": "Hai",
-    "mobileNumber": "8888888882"
-}
-{
-    "id": 2010,
-    "username": "Gangadhar",
-    "email": "vijay123@gmail.com",
-    "firstName": "Hello",
-    "lastName": "Hai",
-    "mobileNumber": "8888888882"
-}
-=================================================================
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjEsImV4cCI6MTc1MjQ5MTA2MX0.ygBLUtgcMWXYDtU9oibjBThAYoPUVdho5jWXJ5eJyUU
-Accept=*/*
-Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjEsImV4cCI6MTc1MjQ5MTA2MX0.ygBLUtgcMWXYDtU9oibjBThAYoPUVdho5jWXJ5eJyUU
-Content-Type=application/json
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"firstName":"Hello","lastName":"Hai","email":"vijay123@gmail.com","mobileNumber":"8888888882"}
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Access-Control-Allow-Origin=https://swift.techwithjatin.com
-Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Max-Age=3600
-Access-Control-Allow-Headers=Authorization, Content-Type, Accept
-Access-Control-Allow-Credentials=true
-X-Content-Type-Options=nosniff
-X-XSS-Protection=0
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=application/json
-Transfer-Encoding=chunked
-Date=Mon, 14 Jul 2025 10:04:21 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
-    "id": 2010,
-    "username": "Gangadhar",
-    "email": "vijay123@gmail.com",
-    "firstName": "Hello",
-    "lastName": "Hai",
-    "mobileNumber": "8888888882"
-}
-{
-    "id": 2010,
-    "username": "Gangadhar",
-    "email": "vijay123@gmail.com",
-    "firstName": "Hello",
-    "lastName": "Hai",
-    "mobileNumber": "8888888882"
-}
 ]]></system-out>
   </testcase>
-  <testcase name="loginTest" classname="com.api.tests.LoginAPITest" time="0.214">
-    <system-out><![CDATA[2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Passed..!updateProfile
-2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Description!!Verify Update Prifile API is working
-2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Started..!loginTest
-2025-07-14 15:34:21 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Login-API is working 
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+  <testcase name="updateProfile" classname="com.api.tests.UpdateProfileAPITest" time="2.205">
+    <system-out><![CDATA[2025-07-14 18:45:53 [TestNG-test-API_Test-1] INFO  com.api.listeners.TestListener - Passed..!getProfile
+2025-07-14 18:45:53 [TestNG-test-API_Test-1] INFO  com.api.listeners.TestListener - Description!!Verify Getprofile API is working 
+2025-07-14 18:45:53 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - BASE URI : http://64.227.160.186:8080
+2025-07-14 18:45:53 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0OTg5NTIsImV4cCI6MTc1MjUwMjU1Mn0.5Oh5IHLFQ3XTICNVlrKRRNfCXeO8bc8s550SpPZFRyc
 Content-Type=application/json
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"username":"Gangadhar","password":"@Donna2128"}
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
+2025-07-14 18:45:53 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"firstName":"Hello","lastName":"Hai","email":"vijay123@gmail.com","mobileNumber":"8888888882"}
+2025-07-14 18:45:53 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-14 18:45:53 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Response Header:Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -339,32 +306,25 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Mon, 14 Jul 2025 10:04:21 GMT
+Date=Mon, 14 Jul 2025 13:15:53 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-2025-07-14 15:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjEsImV4cCI6MTc1MjQ5MTA2MX0.ygBLUtgcMWXYDtU9oibjBThAYoPUVdho5jWXJ5eJyUU",
-    "type": "Bearer",
+2025-07-14 18:45:53 [TestNG-test-API_Test-2] INFO  com.api.filters.LoggingFilter - Response Body:{
     "id": 2010,
     "username": "Gangadhar",
     "email": "vijay123@gmail.com",
-    "roles": [
-        "ROLE_USER"
-    ]
+    "firstName": "Hello",
+    "lastName": "Hai",
+    "mobileNumber": "8888888882"
 }
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjEsImV4cCI6MTc1MjQ5MTA2MX0.ygBLUtgcMWXYDtU9oibjBThAYoPUVdho5jWXJ5eJyUU",
-    "type": "Bearer",
     "id": 2010,
     "username": "Gangadhar",
     "email": "vijay123@gmail.com",
-    "roles": [
-        "ROLE_USER"
-    ]
+    "firstName": "Hello",
+    "lastName": "Hai",
+    "mobileNumber": "8888888882"
 }
-eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHYW5nYWRoYXIiLCJpYXQiOjE3NTI0ODc0NjEsImV4cCI6MTc1MjQ5MTA2MX0.ygBLUtgcMWXYDtU9oibjBThAYoPUVdho5jWXJ5eJyUU
-vijay123@gmail.com
-2010
 ]]></system-out>
   </testcase>
 </testsuite>

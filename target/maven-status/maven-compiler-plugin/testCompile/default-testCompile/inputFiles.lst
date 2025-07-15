@@ -8,8 +8,9 @@ D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\models\req
 D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\models\request\UserProfileRequest.java
 D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\services\AuthenticationService.java
 D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\services\UserProfileManagementService.java
-D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\tests\ForgetPasswordAPITest.java
 D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\tests\GetProfileAPITest.java
 D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\tests\LoginAPITest.java
 D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\tests\SignUpAPITest.java
 D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\tests\UpdateProfileAPITest.java
+D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\utilities\ConfigUtil.java
+D:\Automation_Redefined\Demobank_Api_Automation\src\test\java\com\api\utilities\ExtentReportsManager.java

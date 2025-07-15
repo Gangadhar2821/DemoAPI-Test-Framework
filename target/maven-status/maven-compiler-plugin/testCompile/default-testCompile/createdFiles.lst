@@ -3,9 +3,10 @@ com\api\base\BaseService.class
 com\api\tests\GetProfileAPITest.class
 com\api\listeners\TestListener.class
 com\api\models\request\SignUpRequest$Builder.class
+com\api\utilities\ConfigUtil.class
 com\api\services\UserProfileManagementService.class
-com\api\tests\ForgetPasswordAPITest.class
 com\api\models\request\UserProfileRequest$Builder.class
+com\api\utilities\ExtentReportsManager.class
 com\api\services\AuthenticationService.class
 com\api\tests\SignUpAPITest.class
 com\api\models\request\LoginRequest.class

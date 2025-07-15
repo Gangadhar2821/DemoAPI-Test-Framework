@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +103,12 @@
                     <div class="method-list-content passed suite-Demo_Bank_API_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.ForgetPasswordAPITest" class="method navigator-link" hash-for-method="forgetPassword">forgetPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.GetProfileAPITest" class="method navigator-link" hash-for-method="getProfile">getProfile</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.LoginAPITest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.SignUpAPITest" class="method navigator-link" hash-for-method="signUp">signUp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -141,57 +131,6 @@
           <div class="suite-Demo_Bank_API_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.api.tests.LoginAPITest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <em>
-(Verify if Login-API is working )                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Demo_Bank_API_Test_Suite-class-passed -->
-          <div class="suite-Demo_Bank_API_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.api.tests.ForgetPasswordAPITest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="forgetPassword">
-                  </a> <!-- forgetPassword -->
-                  <span class="method-name">forgetPassword</span>
-                  <em>
-(Verify if forget password API is working)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Demo_Bank_API_Test_Suite-class-passed -->
-          <div class="suite-Demo_Bank_API_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.api.tests.SignUpAPITest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="signUp">
-                  </a> <!-- signUp -->
-                  <span class="method-name">signUp</span>
-                  <em>
-(Verify if Signup API is working)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Demo_Bank_API_Test_Suite-class-passed -->
-          <div class="suite-Demo_Bank_API_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.api.tests.GetProfileAPITest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -202,6 +141,23 @@
                   <span class="method-name">getProfile</span>
                   <em>
 (Verify Getprofile API is working )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Bank_API_Test_Suite-class-passed -->
+          <div class="suite-Demo_Bank_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.LoginAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                  <em>
+(Verify if Login-API is working )                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,12 +188,10 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Demo Bank API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;API_Test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;Demo Bank API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;API_Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.api.tests.GetProfileAPITest&quot;/&gt;
-      &lt;class name=&quot;com.api.tests.SignUpAPITest&quot;/&gt;
-      &lt;class name=&quot;com.api.tests.ForgetPasswordAPITest&quot;/&gt;
       &lt;class name=&quot;com.api.tests.UpdateProfileAPITest&quot;/&gt;
       &lt;class name=&quot;com.api.tests.LoginAPITest&quot;/&gt;
     &lt;/classes&gt;
@@ -253,7 +207,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">API_Test (5 classes)</span>
+                <span class="test-name">API_Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -279,32 +233,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getProfile')
-data.setCell(0, 2, 'com.api.tests.GetProfileAPITest')
-data.setCell(0, 3, 2250);
+data.setCell(0, 1, 'updateProfile')
+data.setCell(0, 2, 'com.api.tests.UpdateProfileAPITest')
+data.setCell(0, 3, 2377);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'updateProfile')
-data.setCell(1, 2, 'com.api.tests.UpdateProfileAPITest')
-data.setCell(1, 3, 519);
+data.setCell(1, 1, 'getProfile')
+data.setCell(1, 2, 'com.api.tests.GetProfileAPITest')
+data.setCell(1, 3, 2175);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'signUp')
-data.setCell(2, 2, 'com.api.tests.SignUpAPITest')
-data.setCell(2, 3, 248);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTest')
-data.setCell(3, 2, 'com.api.tests.LoginAPITest')
-data.setCell(3, 3, 218);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'forgetPassword')
-data.setCell(4, 2, 'com.api.tests.ForgetPasswordAPITest')
-data.setCell(4, 3, 1);
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.api.tests.LoginAPITest')
+data.setCell(2, 3, 1993);
 window.suiteTableData['Demo_Bank_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-Demo_Bank_API_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Demo_Bank_API_Test_Suite">
               </div> <!-- times-div-Demo_Bank_API_Test_Suite -->
             </div> <!-- times-div -->
@@ -337,31 +283,17 @@ return data;
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.api.tests.SignUpAPITest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">signUp</span>
-                <span class="method-start">2256 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.api.tests.ForgetPasswordAPITest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">forgetPassword</span>
-                <span class="method-start">2506 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.UpdateProfileAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">updateProfile</span>
-                <span class="method-start">2509 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.LoginAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">3030 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

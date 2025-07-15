@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T16:34:40 IST" name="Demo Bank API Test Suite" finished-at="2025-07-14T16:34:43 IST" duration-ms="3571">
+  <suite started-at="2025-07-15T17:20:47 IST" name="Demo Bank API Test Suite" finished-at="2025-07-15T17:20:54 IST" duration-ms="6929">
     <groups>
     </groups>
-    <test started-at="2025-07-14T16:34:40 IST" name="API_Test" finished-at="2025-07-14T16:34:43 IST" duration-ms="3571">
-      <class name="com.api.tests.GetProfileAPITest">
-        <test-method signature="getProfile()[pri:0, instance:com.api.tests.GetProfileAPITest@77fbd92c]" started-at="2025-07-14T16:34:40 IST" name="getProfile" description="Verify Getprofile API is working " finished-at="2025-07-14T16:34:42 IST" duration-ms="2498" status="PASS">
+    <test started-at="2025-07-15T17:20:47 IST" name="API_Test" finished-at="2025-07-15T17:20:54 IST" duration-ms="6929">
+      <class name="com.api.tests.CreateUserAPITest">
+        <test-method signature="createUser()[pri:0, instance:com.api.tests.CreateUserAPITest@9597028]" started-at="2025-07-15T17:20:47 IST" name="createUser" description="To Verify Create User API is working" finished-at="2025-07-15T17:20:51 IST" duration-ms="3996" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getProfile -->
-      </class> <!-- com.api.tests.GetProfileAPITest -->
-      <class name="com.api.tests.SignUpAPITest">
-        <test-method signature="signUp()[pri:0, instance:com.api.tests.SignUpAPITest@1bd4fdd]" started-at="2025-07-14T16:34:42 IST" name="signUp" description="Verify if Signup API is working" finished-at="2025-07-14T16:34:43 IST" duration-ms="244" status="PASS">
+        </test-method> <!-- createUser -->
+      </class> <!-- com.api.tests.CreateUserAPITest -->
+      <class name="com.api.tests.GetUserAPITest">
+        <test-method signature="getUser()[pri:0, instance:com.api.tests.GetUserAPITest@72967906]" started-at="2025-07-15T17:20:51 IST" name="getUser" description="To Verify GetUser API is working ..!" finished-at="2025-07-15T17:20:52 IST" duration-ms="1536" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUp -->
-      </class> <!-- com.api.tests.SignUpAPITest -->
-      <class name="com.api.tests.LoginAPITest">
-        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest@6cf0e0ba]" started-at="2025-07-14T16:34:43 IST" name="loginTest" description="Verify if Login-API is working " finished-at="2025-07-14T16:34:43 IST" duration-ms="225" status="PASS">
+        </test-method> <!-- getUser -->
+      </class> <!-- com.api.tests.GetUserAPITest -->
+      <class name="com.api.tests.UpdateUserAPITest">
+        <test-method signature="updateUser()[pri:0, instance:com.api.tests.UpdateUserAPITest@5b8dfcc1]" started-at="2025-07-15T17:20:52 IST" name="updateUser" description="Verify UpdateUser API is Working..!" finished-at="2025-07-15T17:20:54 IST" duration-ms="1325" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.api.tests.LoginAPITest -->
-      <class name="com.api.tests.UpdateProfileAPITest">
-        <test-method signature="updateProfile()[pri:0, instance:com.api.tests.UpdateProfileAPITest@55183b20]" started-at="2025-07-14T16:34:43 IST" name="updateProfile" description="Verify Update Prifile API is working" finished-at="2025-07-14T16:34:43 IST" duration-ms="524" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateProfile -->
-      </class> <!-- com.api.tests.UpdateProfileAPITest -->
+        </test-method> <!-- updateUser -->
+      </class> <!-- com.api.tests.UpdateUserAPITest -->
     </test> <!-- API_Test -->
   </suite> <!-- Demo Bank API Test Suite -->
 </testng-results>
