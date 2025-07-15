@@ -1,5 +1,6 @@
 package com.api.tests;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.api.models.request.UpdateUserRequest;
@@ -7,6 +8,7 @@ import com.api.services.UserService;
 
 import io.restassured.response.Response;
 
+@Listeners(com.api.listeners.TestListener.class)
 public class UpdateUserAPITest {
 
 	@Test(description = "Verify UpdateUser API is Working..!")

@@ -7,6 +7,7 @@ import com.api.services.UserService;
 
 import io.restassured.response.Response;
 
+
 public class CreateUserAPITest {
 
 	@Test(description = "To Verify Create User API is working")

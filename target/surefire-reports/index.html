@@ -103,17 +103,17 @@
                     <div class="method-list-content passed suite-Demo_Bank_API_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.GetProfileAPITest" class="method navigator-link" hash-for-method="getProfile">getProfile</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.CreateUserAPITest" class="method navigator-link" hash-for-method="createUser">createUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.LoginAPITest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.GetUserAPITest" class="method navigator-link" hash-for-method="getUser">getUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.UpdateProfileAPITest" class="method navigator-link" hash-for-method="updateProfile">updateProfile</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Demo_Bank_API_Test_Suite" title="com.api.tests.UpdateUserAPITest" class="method navigator-link" hash-for-method="updateUser">updateUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Demo_Bank_API_Test_Suite -->
@@ -131,16 +131,16 @@
           <div class="suite-Demo_Bank_API_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.api.tests.GetProfileAPITest</span>
+              <span class="class-name">com.api.tests.GetUserAPITest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getProfile">
-                  </a> <!-- getProfile -->
-                  <span class="method-name">getProfile</span>
+                  <a name="getUser">
+                  </a> <!-- getUser -->
+                  <span class="method-name">getUser</span>
                   <em>
-(Verify Getprofile API is working )                  </em>
+(To Verify GetUser API is working ..!)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -148,16 +148,16 @@
           <div class="suite-Demo_Bank_API_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.api.tests.LoginAPITest</span>
+              <span class="class-name">com.api.tests.UpdateUserAPITest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
+                  <a name="updateUser">
+                  </a> <!-- updateUser -->
+                  <span class="method-name">updateUser</span>
                   <em>
-(Verify if Login-API is working )                  </em>
+(Verify UpdateUser API is Working..!)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -165,16 +165,16 @@
           <div class="suite-Demo_Bank_API_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.api.tests.UpdateProfileAPITest</span>
+              <span class="class-name">com.api.tests.CreateUserAPITest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="updateProfile">
-                  </a> <!-- updateProfile -->
-                  <span class="method-name">updateProfile</span>
+                  <a name="createUser">
+                  </a> <!-- createUser -->
+                  <span class="method-name">createUser</span>
                   <em>
-(Verify Update Prifile API is working)                  </em>
+(To Verify Create User API is working)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,12 +188,15 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;classes&quot; name=&quot;Demo Bank API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;API_Test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;Demo Bank API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.api.listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;API_Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.api.tests.GetProfileAPITest&quot;/&gt;
-      &lt;class name=&quot;com.api.tests.UpdateProfileAPITest&quot;/&gt;
-      &lt;class name=&quot;com.api.tests.LoginAPITest&quot;/&gt;
+      &lt;class name=&quot;com.api.tests.CreateUserAPITest&quot;/&gt;
+      &lt;class name=&quot;com.api.tests.GetUserAPITest&quot;/&gt;
+      &lt;class name=&quot;com.api.tests.UpdateUserAPITest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- API_Test --&gt;
 &lt;/suite&gt; &lt;!-- Demo Bank API Test Suite --&gt;
@@ -235,22 +238,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'updateProfile')
-data.setCell(0, 2, 'com.api.tests.UpdateProfileAPITest')
-data.setCell(0, 3, 2377);
+data.setCell(0, 1, 'createUser')
+data.setCell(0, 2, 'com.api.tests.CreateUserAPITest')
+data.setCell(0, 3, 3263);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getProfile')
-data.setCell(1, 2, 'com.api.tests.GetProfileAPITest')
-data.setCell(1, 3, 2175);
+data.setCell(1, 1, 'updateUser')
+data.setCell(1, 2, 'com.api.tests.UpdateUserAPITest')
+data.setCell(1, 3, 1287);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginTest')
-data.setCell(2, 2, 'com.api.tests.LoginAPITest')
-data.setCell(2, 3, 1993);
+data.setCell(2, 1, 'getUser')
+data.setCell(2, 2, 'com.api.tests.GetUserAPITest')
+data.setCell(2, 3, 1211);
 window.suiteTableData['Demo_Bank_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-Demo_Bank_API_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Demo_Bank_API_Test_Suite">
               </div> <!-- times-div-Demo_Bank_API_Test_Suite -->
             </div> <!-- times-div -->
@@ -276,24 +279,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.api.tests.GetProfileAPITest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.api.tests.CreateUserAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getProfile</span>
+                <span class="method-name">createUser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.api.tests.UpdateProfileAPITest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.api.tests.GetUserAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">updateProfile</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">getUser</span>
+                <span class="method-start">3270 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.api.tests.LoginAPITest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.api.tests.UpdateUserAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">updateUser</span>
+                <span class="method-start">4484 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
