@@ -4417,3 +4417,2227 @@ Server=Jetty(9.2.9.v20150224)
 2025-07-15 18:12:44 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
 2025-07-15 18:12:44 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
 2025-07-15 18:12:44 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:04:49 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:04:49 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:04:49 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:04:51 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:04:51 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:04:51 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:04:53 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:04:53 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:34:53 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:04:53 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:04:53 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:04:53 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:04:53 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 11:04:53 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:05:54 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:05:54 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:05:54 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:05:55 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 11:05:55 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:35:55 GMT
+Content-Type=application/xml
+Content-Length=177
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:05:56 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/userGanganna</message>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 11:05:56 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
+2025-07-18 11:05:56 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:05:56 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:06:19 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:06:19 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:06:19 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:06:21 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:06:21 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:06:21 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:06:23 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:06:23 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:36:23 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:06:23 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:06:23 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:06:23 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:06:23 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 11:06:23 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:07:40 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:07:40 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:07:40 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:07:42 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:07:42 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:07:42 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:07:45 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:07:45 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:37:45 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:07:45 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:07:45 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:07:45 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:07:45 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 11:07:45 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:08:54 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:08:54 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:08:54 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:08:58 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 11:08:58 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:38:58 GMT
+Content-Type=application/xml
+Content-Length=177
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:09:00 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/userGanganna</message>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 11:09:16 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
+2025-07-18 11:09:16 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:09:16 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:09:49 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:09:49 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:09:49 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:09:51 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:09:51 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:09:51 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:09:53 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:09:53 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:39:53 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:09:53 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:09:53 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:09:53 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:09:53 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 11:09:53 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:10:21 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:10:21 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:10:21 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:10:25 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 11:10:25 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:40:24 GMT
+Content-Type=application/xml
+Content-Length=177
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:10:25 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/userGanganna</message>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 11:10:25 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
+2025-07-18 11:10:25 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:10:25 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 11:10:25 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:10:25 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:10:25 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 11:10:25 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:10:26 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 11:10:26 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:40:26 GMT
+Content-Type=application/xml
+Content-Length=177
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:10:26 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/userGanganna</message>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 11:10:26 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 11:10:26 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:10:26 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:12:41 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:12:41 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:12:41 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:12:42 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:12:42 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:12:42 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:12:45 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:12:45 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:42:45 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:12:45 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:12:45 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:12:45 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:12:45 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 11:12:45 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:12:45 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:12:45 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 11:12:45 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:12:47 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 11:12:47 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:42:46 GMT
+Content-Type=application/xml
+Content-Length=177
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:12:47 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/userGanganna</message>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 11:12:47 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 11:12:47 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:12:47 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:16:08 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:16:08 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:16:08 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:16:49 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:16:49 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:16:49 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:16:55 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:16:55 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:46:55 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:16:55 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:17:43 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:17:43 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:17:43 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 11:17:43 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:18:44 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:18:44 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 11:18:44 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:18:48 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 11:18:48 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:48:48 GMT
+Content-Type=application/xml
+Content-Length=177
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:18:50 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/userGanganna</message>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 11:19:54 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 11:19:54 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:19:54 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:22:42 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:22:43 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:22:43 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:24:00 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:24:00 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:24:00 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:24:06 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:24:06 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:54:06 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:24:07 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:24:24 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:24:24 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:24:24 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 11:24:24 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:24:49 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:24:49 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 11:24:49 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:24:51 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:24:51 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:54:51 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:24:51 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 11:24:51 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 11:24:51 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:24:51 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:26:38 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:26:39 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:26:39 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:26:40 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:26:40 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:26:40 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:26:42 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:26:42 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:56:42 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:26:42 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:26:42 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:26:42 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:26:42 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 11:26:42 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:26:42 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:26:42 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 11:26:42 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:26:44 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:26:44 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:56:44 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:26:44 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 11:26:44 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 11:26:44 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:26:44 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 11:26:44 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:26:44 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:26:44 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:26:44 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:26:45 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:26:45 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:56:45 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:26:45 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "Ganganna"
+}
+2025-07-18 11:26:45 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
+2025-07-18 11:26:45 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:26:45 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:28:20 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:28:20 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:28:20 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:28:22 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:28:22 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:28:22 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:28:24 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:28:24 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:58:24 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:28:24 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:28:24 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:28:24 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:28:24 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 11:28:24 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:28:24 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:28:24 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 11:28:24 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:28:26 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:28:26 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:58:25 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:28:26 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 11:28:26 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 11:28:26 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:28:26 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 11:28:26 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:28:26 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:28:26 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:28:26 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:28:27 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:28:27 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:58:27 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:28:27 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "Ganganna"
+}
+2025-07-18 11:28:27 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
+2025-07-18 11:28:27 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:28:27 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:29:04 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:29:05 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:29:05 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:29:06 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:29:06 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:29:06 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:29:08 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:29:08 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:59:08 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:29:08 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:29:08 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:29:08 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:29:08 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 11:29:08 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:29:08 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:29:08 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 11:29:08 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:29:10 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:29:10 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:59:10 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:29:10 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 11:29:10 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 11:29:10 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:29:10 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 11:29:10 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:29:10 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:29:10 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:29:10 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:29:12 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 11:29:12 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:59:11 GMT
+Content-Length=0
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:29:12 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+2025-07-18 11:29:12 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
+2025-07-18 11:29:12 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:29:12 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:29:43 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 11:29:44 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 11:29:44 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:29:45 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:29:45 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:29:45 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 11:29:47 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:29:47 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:59:47 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:29:48 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 11:29:48 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 11:29:48 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 11:29:48 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 11:29:48 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:29:48 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:29:48 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 11:29:48 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:29:49 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:29:49 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:59:49 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:29:49 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 11:29:49 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 11:29:49 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 11:29:49 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 11:29:49 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:29:49 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 11:29:49 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 11:29:49 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 11:29:51 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 11:29:51 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 05:59:51 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 11:29:51 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "Ganganna"
+}
+2025-07-18 11:29:51 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
+2025-07-18 11:29:51 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 11:29:51 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 15:48:57 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 15:48:58 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 15:48:58 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 15:48:59 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 15:48:59 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 15:48:59 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 15:49:01 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 15:49:01 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:19:01 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 15:49:01 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 15:49:01 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 15:49:01 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 15:49:01 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 15:55:39 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 15:55:40 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 15:55:40 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 15:55:41 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 15:55:41 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 15:55:41 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 15:55:43 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 15:55:43 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:25:43 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 15:55:43 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 15:55:43 [main] ERROR com.api.listeners.TestListener - Failed..!createUser
+2025-07-18 15:55:43 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 15:57:31 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 15:57:32 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 15:57:32 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 15:57:33 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 15:57:33 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 15:57:33 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 15:57:35 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 15:57:35 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:27:35 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 15:57:35 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 15:57:36 [main] ERROR com.api.listeners.TestListener - Failed..!createUser
+2025-07-18 15:57:36 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:01:15 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:01:16 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:01:16 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:01:17 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:01:17 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:01:17 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:01:19 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:01:19 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:31:19 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:01:19 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:01:19 [main] ERROR com.api.listeners.TestListener - Failed..!createUser
+2025-07-18 16:01:19 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:03:52 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:03:52 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:03:52 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:03:54 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:03:54 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:33:53 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:03:54 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:10:28 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:10:28 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:10:28 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:10:30 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:10:30 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:40:30 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:10:30 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:15:38 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:15:38 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:15:38 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:15:39 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:15:39 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:15:39 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:15:42 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:15:42 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:45:42 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:15:42 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:15:42 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:15:42 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:15:42 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:19:07 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:19:07 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:19:07 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:19:10 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:19:10 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:49:10 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:19:10 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:23:24 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:23:24 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:23:24 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:23:25 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:23:25 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:23:25 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:23:28 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:23:28 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:53:27 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:23:28 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:23:28 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:23:28 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:23:28 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:23:28 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:23:28 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:23:28 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:23:28 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"1newUser","firstName":"Dhi","lastName":"naaa","email":"gdv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 16:23:29 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:405
+2025-07-18 16:23:29 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:53:29 GMT
+Content-Type=application/xml
+Content-Length=102
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:23:29 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 16:23:29 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 16:23:29 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:23:29 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:24:26 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:24:26 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:24:26 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:24:27 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:24:27 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:24:27 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:24:30 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:24:30 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:54:29 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:24:30 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:24:30 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:24:30 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:24:30 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:24:30 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:24:30 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:24:30 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:24:30 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"newUsernew","firstName":"Dhi","lastName":"naaa","email":"gdv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 16:24:32 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:405
+2025-07-18 16:24:32 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:54:31 GMT
+Content-Type=application/xml
+Content-Length=102
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:24:32 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 16:24:32 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 16:24:32 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:24:32 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:25:06 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:25:06 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:25:06 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:25:08 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:25:08 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:55:08 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:25:08 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:26:27 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:26:27 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:26:27 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:26:29 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:26:29 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:26:29 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:26:31 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:26:31 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:56:31 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:26:31 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:26:31 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:26:31 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:26:31 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 16:26:31 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 16:26:31 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:26:31 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 16:26:31 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 16:26:33 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:26:33 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 10:56:33 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:26:33 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 16:26:33 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 16:26:33 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 16:26:33 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:32:23 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:32:23 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:32:23 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:32:25 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:32:25 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:32:25 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:32:27 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:32:27 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:02:27 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:32:27 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:32:27 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:32:27 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:32:27 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 16:32:27 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 16:32:27 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:32:27 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 16:32:27 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 16:32:30 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:32:30 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:02:29 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:32:30 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 16:32:30 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 16:32:30 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 16:32:30 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:32:30 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:32:30 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:32:30 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:32:30 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"newUsernew","firstName":"Dhi","lastName":"naaa","email":"gdv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 16:32:31 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:405
+2025-07-18 16:32:31 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:02:31 GMT
+Content-Type=application/xml
+Content-Length=102
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:32:31 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 16:32:31 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 16:32:31 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:34:15 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:34:16 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:34:16 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:34:17 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:34:17 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:34:17 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:34:19 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:34:19 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:04:19 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:34:19 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:34:19 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:34:19 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:34:19 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 16:34:19 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 16:34:19 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:34:19 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 16:34:19 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 16:34:21 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:04:21 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 16:34:21 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 16:34:21 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 16:34:21 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:34:21 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:34:22 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:34:22 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:34:22 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 16:34:23 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:405
+2025-07-18 16:34:23 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:04:23 GMT
+Content-Type=application/xml
+Content-Length=102
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:34:23 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 16:34:23 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 16:34:23 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:36:08 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:36:09 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:36:09 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:47:45 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:47:45 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:47:45 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:47:46 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:47:46 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:47:46 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:47:49 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:47:49 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:17:48 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:47:49 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:47:49 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:47:49 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:47:49 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:48:29 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:48:29 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:48:29 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 16:48:37 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:405
+2025-07-18 16:48:37 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:18:36 GMT
+Content-Type=application/xml
+Content-Length=102
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:48:37 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 16:48:37 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 16:48:37 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:50:06 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:50:07 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:50:07 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:50:15 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 16:50:15 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:50:37 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:50:38 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:50:38 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:50:51 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:50:51 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:50:51 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:50:54 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:50:54 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:20:53 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:50:54 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:50:54 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:50:54 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:50:54 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:50:54 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:51:32 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 16:51:32 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:51:43 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:51:43 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:51:43 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:51:50 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:51:50 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:51:50 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:51:53 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:51:53 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:21:52 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:51:53 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:51:53 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:51:53 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:51:53 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:51:53 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:53:22 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 16:53:22 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:53:59 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:53:59 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:53:59 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:54:00 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:54:00 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:54:00 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:54:03 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:54:03 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:24:03 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:54:03 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:54:03 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:54:03 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:54:03 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:54:03 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:55:05 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:55:06 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:55:06 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 16:55:10 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:405
+2025-07-18 16:55:10 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:25:10 GMT
+Content-Type=application/xml
+Content-Length=102
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:55:12 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 16:55:32 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 16:55:32 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:56:59 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:57:00 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:57:00 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:57:01 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:57:01 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:57:01 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:57:03 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:57:03 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:27:03 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:57:04 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:57:04 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:57:04 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:57:04 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:57:04 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 16:58:06 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:58:07 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:58:07 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 16:58:11 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 16:58:11 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:28:11 GMT
+Content-Type=application/xml
+Content-Length=177
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:58:13 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/userGanganna</message>
+  <type>unknown</type>
+</apiResponse>
+2025-07-18 16:58:17 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 16:58:17 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:59:32 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 16:59:32 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 16:59:32 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:59:34 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 16:59:34 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 16:59:34 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 16:59:36 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 16:59:36 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:29:36 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 16:59:36 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 16:59:36 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 16:59:36 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 16:59:36 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 16:59:36 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:00:20 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:00:20 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:00:20 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:00:24 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:00:24 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:30:24 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:00:24 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:00:49 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 17:00:49 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:01:43 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:01:43 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:01:43 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:01:44 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 17:01:44 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:02:08 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:02:08 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:02:08 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:02:10 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:02:10 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:02:10 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:02:12 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:02:12 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:32:12 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:02:12 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:02:12 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:02:12 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:02:12 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:02:12 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:02:12 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:02:12 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:02:12 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:02:14 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:02:14 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:32:14 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:02:14 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:08:21 [main] ERROR com.api.listeners.TestListener - Failed..!updateUser
+2025-07-18 17:08:21 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:08:37 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:08:37 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:08:37 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:08:39 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:08:39 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:08:39 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:08:41 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:08:41 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:38:41 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:08:41 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:08:41 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:08:41 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:08:41 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:08:41 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:08:41 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:08:41 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:08:41 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:08:43 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:08:43 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:38:42 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:08:43 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:09:09 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:09:09 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:09:09 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:10:16 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:10:16 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:10:16 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:10:18 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:10:18 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:10:18 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:10:20 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:10:20 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:40:20 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:10:20 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:10:20 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:10:20 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:10:20 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:10:20 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:10:20 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:10:20 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:10:20 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:10:22 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:10:22 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:40:21 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:10:22 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:10:22 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 17:10:22 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:10:22 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:10:22 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:10:22 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:10:22 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:10:22 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:10:23 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:10:23 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:40:23 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:10:23 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:10:23 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:10:23 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:10:23 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:13:18 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:13:18 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:13:18 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:13:19 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:13:19 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:13:19 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:13:22 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:13:22 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:43:21 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:13:22 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:13:22 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:13:22 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:13:22 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:13:22 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:13:22 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:13:22 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:13:22 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:13:23 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:13:23 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:43:23 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:13:23 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:13:23 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 17:13:23 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:13:23 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:13:23 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:13:23 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:13:23 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:13:23 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:13:25 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:13:25 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:43:25 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:13:25 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:13:25 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:13:25 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:13:25 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:19:39 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:19:39 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:19:39 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:19:41 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:19:41 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:19:41 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:19:43 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:19:43 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:49:43 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:19:43 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:19:43 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:19:43 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:19:43 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:19:43 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:19:43 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:19:43 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:19:43 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:19:45 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:19:45 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:49:45 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:19:45 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:19:45 [main] ERROR com.api.listeners.TestListener - Failed..!getUser
+2025-07-18 17:19:45 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:19:45 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:19:45 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:19:45 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:19:45 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:19:46 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:19:46 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:49:46 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:19:46 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:19:46 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:19:46 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:19:46 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:22:24 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:22:24 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:22:24 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:22:25 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:22:25 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:22:25 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:22:28 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:22:28 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:52:27 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:22:28 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:22:28 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:22:28 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:22:28 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:22:28 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:22:28 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:22:28 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:22:28 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:22:29 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:22:29 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:52:29 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:22:29 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:22:29 [main] ERROR com.api.listeners.TestListener - Failed..!getUser
+2025-07-18 17:22:29 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:22:29 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:22:29 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:22:29 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:22:29 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:22:31 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:22:31 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:52:31 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:22:31 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:22:31 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:22:31 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:22:31 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:23:27 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:23:27 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:23:27 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:23:28 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:23:28 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:23:28 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:23:31 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:23:31 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:53:31 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:23:31 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:23:31 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:23:31 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:23:31 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:23:31 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:24:06 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:24:06 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:24:06 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:24:07 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:24:07 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:54:07 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:24:07 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:24:07 [main] ERROR com.api.listeners.TestListener - Failed..!getUser
+2025-07-18 17:24:07 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:24:07 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:24:07 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:24:07 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:24:07 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:24:09 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:24:09 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:54:09 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:24:09 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:24:09 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:24:09 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:24:09 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:25:33 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:25:34 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:25:34 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:25:35 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:25:35 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:25:35 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:25:38 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:25:38 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:55:37 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:25:38 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:25:38 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:25:38 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:25:38 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:25:38 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:26:18 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:26:18 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:26:18 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:26:22 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:26:22 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 11:56:21 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:26:22 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:30:44 [main] ERROR com.api.listeners.TestListener - Failed..!getUser
+2025-07-18 17:30:44 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:30:44 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:30:44 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:30:44 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:30:44 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:30:46 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:30:46 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:00:46 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:30:46 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:30:46 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:30:46 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:30:46 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:30:54 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:30:54 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:30:54 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:30:55 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:30:55 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:30:55 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:30:57 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:30:57 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:00:57 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:30:57 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:30:58 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:30:58 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:30:58 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:30:58 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:31:09 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:31:09 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:31:09 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:31:14 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:31:14 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:01:13 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:31:14 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:31:41 [main] ERROR com.api.listeners.TestListener - Failed..!getUser
+2025-07-18 17:31:41 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:31:41 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:31:41 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:31:41 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:31:41 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:31:47 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:31:47 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:01:47 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:31:47 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:31:47 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:31:47 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:31:47 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:32:29 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:32:29 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:32:29 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:32:30 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:32:30 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:32:30 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:32:33 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:32:33 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:02:32 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:32:33 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:32:33 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:32:33 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:32:33 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:32:33 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:32:33 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:32:33 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:32:33 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:32:34 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:32:34 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:02:34 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:32:34 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:32:34 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 17:32:34 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:32:34 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:32:34 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:32:34 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:32:34 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:32:34 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:32:36 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:32:36 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:02:36 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:32:36 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:32:36 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:32:36 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:32:36 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:34:15 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:34:16 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:34:16 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:34:17 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:34:17 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:34:17 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:34:19 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:34:19 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:04:19 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:34:19 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:34:19 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:34:19 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:34:19 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:34:19 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:34:19 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:34:19 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:34:19 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:34:21 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:04:21 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:34:21 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:34:21 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 17:34:21 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:34:21 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:34:21 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:34:21 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:34:21 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:34:21 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:34:22 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:34:22 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:04:22 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:34:22 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:34:22 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:34:22 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:34:23 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:35:30 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:35:30 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:35:30 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:35:32 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:35:32 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:35:32 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:35:34 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:35:34 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:05:34 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:35:34 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:35:34 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:35:34 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:35:34 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:35:34 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:35:34 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:35:34 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:35:34 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:35:36 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:35:36 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:05:35 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:35:36 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:35:36 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 17:35:36 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:35:36 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:35:36 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:35:36 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:35:36 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:35:36 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:35:37 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:35:37 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:05:37 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:35:37 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:35:37 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:35:37 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:35:37 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 17:35:37 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 17:35:37 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:35:37 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:35:37 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:35:39 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:35:39 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:05:38 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:35:39 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "Ganganna"
+}
+2025-07-18 17:35:39 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
+2025-07-18 17:35:39 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 17:35:39 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:37:09 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:37:10 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:37:10 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:37:11 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:37:11 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:37:11 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:07:13 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+2025-07-18 17:37:13 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:37:13 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:37:13 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:37:13 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:07:14 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
+2025-07-18 17:37:14 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 17:37:14 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:37:14 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:37:14 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:07:16 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+2025-07-18 17:37:16 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:37:16 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:37:16 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 17:37:16 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:37:17 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 17:37:17 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:07:17 GMT
+Content-Length=0
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:37:17 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+2025-07-18 17:37:17 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
+2025-07-18 17:37:17 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 17:37:17 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!

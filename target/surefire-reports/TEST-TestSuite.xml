@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="7.409" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="9.494" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\gangadhar.b\AppData\Local\Temp\surefire12097592565333284405\surefirebooter-20250715181237057_3.jar C:\Users\gangadhar.b\AppData\Local\Temp\surefire12097592565333284405 2025-07-15T18-12-36_786-jvmRun1 surefire-20250715181237057_1tmp surefire_0-20250715181237057_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\gangadhar.b\AppData\Local\Temp\surefire15527947272773867746\surefirebooter-20250718173708278_3.jar C:\Users\gangadhar.b\AppData\Local\Temp\surefire15527947272773867746 2025-07-18T17-37-08_043-jvmRun1 surefire-20250718173708278_1tmp surefire_0-20250718173708278_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Automation_Redefined\Demobank_Api_Automation\target\test-classes;D:\Automation_Redefined\Demobank_Api_Automation\target\classes;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gangadhar.b\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gangadhar.b\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gangadhar.b\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\gangadhar.b\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\gangadhar.b\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\gangadhar.b\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\gangadhar.b\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\gangadhar.b\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\gangadhar.b\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\gangadhar.b\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gangadhar.b\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gangadhar.b\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gangadhar.b\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gangadhar.b\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\gangadhar.b\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\gangadhar.b\AppData\Local\Temp\surefire12097592565333284405\surefirebooter-20250715181237057_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\gangadhar.b\AppData\Local\Temp\surefire15527947272773867746\surefirebooter-20250718173708278_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -50,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-21\bin;D:\Softwares\apache-maven-3.9.9\bin;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\gangadhar.b\AppData\Local\Android\Sdk;C:\Users\gangadhar.b\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\dotnet\;C:\Users\gangadhar.b\AppData\Local\Microsoft\WindowsApps;C:\Users\gangadhar.b\AppData\Roaming\npm;D:\Softwares\allure-2.34.0\bin;C:\Users\gangadhar.b\AppData\Local\Programs\Git\cmd;C:\Users\gangadhar.b\AppData\Local\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/gangadhar.b/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin/server;C:/Users/gangadhar.b/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin;C:\Program Files\Java\jdk-21\bin;D:\Softwares\apache-maven-3.9.9\bin;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\gangadhar.b\AppData\Local\Android\Sdk;C:\Users\gangadhar.b\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-21\bin;D:\Softwares\apache-maven-3.9.9\bin;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\gangadhar.b\AppData\Local\Android\Sdk;C:\Users\gangadhar.b\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-21\bin;D:\Softwares\apache-maven-3.9.9\bin;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\gangadhar.b\AppData\Local\Android\Sdk;C:\Users\gangadhar.b\AppData\Local\Android\Sdk\platform-tools;C:\Users\gangadhar.b\AppData\Local\Microsoft\WindowsApps;C:\Users\gangadhar.b\AppData\Roaming\npm;D:\Softwares\allure-2.34.0\bin;C:\Users\gangadhar.b\AppData\Local\Programs\Git\cmd;C:\Users\gangadhar.b\AppData\Local\JetBrains\IntelliJ IDEA 2025.1.1.1\bin;;C:\Windows\System32;;."/>
     <property name="suite" value="suite"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
@@ -59,16 +59,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="createUser" classname="com.api.tests.CreateUserAPITest" time="3.069">
-    <system-out><![CDATA[2025-07-15 18:12:38 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
-2025-07-15 18:12:39 [main] INFO  com.api.listeners.TestListener - Started..!createUser
-2025-07-15 18:12:39 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
-2025-07-15 18:12:40 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
-2025-07-15 18:12:40 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+  <testcase name="createUser" classname="com.api.tests.CreateUserAPITest" time="3.182">
+    <system-out><![CDATA[2025-07-18 17:37:09 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-18 17:37:10 [main] INFO  com.api.listeners.TestListener - Started..!createUser
+2025-07-18 17:37:10 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:37:11 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:37:11 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
 Content-Type=application/json
-2025-07-15 18:12:40 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
-2025-07-15 18:12:42 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
-2025-07-15 18:12:42 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 15 Jul 2025 12:42:41 GMT
+2025-07-18 17:37:11 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"username":"Ganganna","firstName":"Gangadhar","lastName":"b","email":"gang123@gmail.com","password":"@Donn","phone":"7506573915","userStatus":1}
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:07:13 GMT
 Content-Type=application/json
 Transfer-Encoding=chunked
 Connection=keep-alive
@@ -76,12 +76,7 @@ Access-Control-Allow-Origin=*
 Access-Control-Allow-Methods=GET, POST, DELETE, PUT
 Access-Control-Allow-Headers=Content-Type, api_key, Authorization
 Server=Jetty(9.2.9.v20150224)
-2025-07-15 18:12:42 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
-    "code": 200,
-    "type": "unknown",
-    "message": "2"
-}
-{
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
     "code": 200,
     "type": "unknown",
     "message": "2"
@@ -92,53 +87,84 @@ SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="getUser" classname="com.api.tests.GetUserAPITest" time="1.206">
-    <system-out><![CDATA[2025-07-15 18:12:42 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
-2025-07-15 18:12:42 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
-2025-07-15 18:12:42 [main] INFO  com.api.listeners.TestListener - Started..!getUser
-2025-07-15 18:12:42 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
-2025-07-15 18:12:42 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
-2025-07-15 18:12:42 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
-2025-07-15 18:12:42 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
-2025-07-15 18:12:43 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
-2025-07-15 18:12:43 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 15 Jul 2025 12:42:43 GMT
-Content-Type=application/xml
-Content-Length=177
+  <testcase name="getUser" classname="com.api.tests.GetUserAPITest" time="1.475">
+    <system-out><![CDATA[2025-07-18 17:37:13 [main] INFO  com.api.listeners.TestListener - Passed..!createUser
+2025-07-18 17:37:13 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create User API is working
+2025-07-18 17:37:13 [main] INFO  com.api.listeners.TestListener - Started..!getUser
+2025-07-18 17:37:13 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+2025-07-18 17:37:13 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:07:14 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
 Connection=keep-alive
 Access-Control-Allow-Origin=*
 Access-Control-Allow-Methods=GET, POST, DELETE, PUT
 Access-Control-Allow-Headers=Content-Type, api_key, Authorization
 Server=Jetty(9.2.9.v20150224)
-2025-07-15 18:12:43 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
-  <message>null for uri: http://petstore.swagger.io/v2/userGanganna</message>
-  <type>unknown</type>
-</apiResponse>
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "username": "Ganganna",
+    "firstName": "Gangadhar",
+    "lastName": "b",
+    "email": "gang123@gmail.com",
+    "password": "@Donn",
+    "phone": "7506573915",
+    "userStatus": 1
+}
 ]]></system-out>
   </testcase>
-  <testcase name="updateUser" classname="com.api.tests.UpdateUserAPITest" time="1.286">
-    <system-out><![CDATA[2025-07-15 18:12:43 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
-2025-07-15 18:12:43 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
-2025-07-15 18:12:43 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
-2025-07-15 18:12:43 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
-2025-07-15 18:12:43 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
-2025-07-15 18:12:43 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+  <testcase name="updateUser" classname="com.api.tests.UpdateUserAPITest" time="1.587">
+    <system-out><![CDATA[2025-07-18 17:37:14 [main] INFO  com.api.listeners.TestListener - Passed..!getUser
+2025-07-18 17:37:14 [main] INFO  com.api.listeners.TestListener - Description!!To Verify GetUser API is working ..!
+2025-07-18 17:37:14 [main] INFO  com.api.listeners.TestListener - Started..!updateUser
+2025-07-18 17:37:14 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
 Content-Type=application/json
-2025-07-15 18:12:43 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"newUser","firstName":"Dhi","lastName":"naa","email":"gv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
-2025-07-15 18:12:44 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:405
-2025-07-15 18:12:44 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Tue, 15 Jul 2025 12:42:44 GMT
-Content-Type=application/xml
-Content-Length=102
+2025-07-18 17:37:14 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":3,"username":"HnewUsernew","firstName":"DDhi","lastName":"naaa","email":"gdsv12@gmail.com","password":"pass!223","phone":"887453915","userStatus":2}
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:07:16 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
 Connection=keep-alive
 Access-Control-Allow-Origin=*
 Access-Control-Allow-Methods=GET, POST, DELETE, PUT
 Access-Control-Allow-Headers=Content-Type, api_key, Authorization
 Server=Jetty(9.2.9.v20150224)
-2025-07-15 18:12:44 [main] INFO  com.api.filters.LoggingFilter - Response Body:<apiResponse>
-  <type>unknown</type>
-</apiResponse>
-<apiResponse>
-  <type>unknown</type>
-</apiResponse>
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser" classname="com.api.tests.DeleteUserAPITest" time="1.375">
+    <system-out><![CDATA[2025-07-18 17:37:16 [main] INFO  com.api.listeners.TestListener - Passed..!updateUser
+2025-07-18 17:37:16 [main] INFO  com.api.listeners.TestListener - Description!!Verify UpdateUser API is Working..!
+2025-07-18 17:37:16 [main] INFO  com.api.listeners.TestListener - Started..!deleteUser
+2025-07-18 17:37:16 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-18 17:37:16 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : null
+2025-07-18 17:37:17 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:404
+2025-07-18 17:37:17 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Fri, 18 Jul 2025 12:07:17 GMT
+Content-Length=0
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-18 17:37:17 [main] INFO  com.api.filters.LoggingFilter - Response Body:
+
 ]]></system-out>
   </testcase>
 </testsuite>

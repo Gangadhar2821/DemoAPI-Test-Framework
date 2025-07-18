@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-15T18:08:30 IST" name="Demo Bank API Test Suite" finished-at="2025-07-15T18:08:36 IST" duration-ms="5915">
+  <suite started-at="2025-07-18T17:35:30 IST" name="Demo Bank API Test Suite" finished-at="2025-07-18T17:35:39 IST" duration-ms="8571">
     <groups>
     </groups>
-    <test started-at="2025-07-15T18:08:30 IST" name="API_Test" finished-at="2025-07-15T18:08:36 IST" duration-ms="5915">
+    <test started-at="2025-07-18T17:35:30 IST" name="API_Test" finished-at="2025-07-18T17:35:39 IST" duration-ms="8571">
+      <class name="com.api.tests.DeleteUserAPITest">
+        <test-method signature="deleteUser()[pri:0, instance:com.api.tests.DeleteUserAPITest@31bcf236]" started-at="2025-07-18T17:35:37 IST" name="deleteUser" description="Verify DeleteUser API is Working !" finished-at="2025-07-18T17:35:39 IST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- com.api.tests.DeleteUserAPITest -->
       <class name="com.api.tests.CreateUserAPITest">
-        <test-method signature="createUser()[pri:0, instance:com.api.tests.CreateUserAPITest@4b14918a]" started-at="2025-07-15T18:08:30 IST" name="createUser" description="To Verify Create User API is working" finished-at="2025-07-15T18:08:33 IST" duration-ms="3559" status="PASS">
+        <test-method signature="createUser()[pri:0, instance:com.api.tests.CreateUserAPITest@1a6c1270]" started-at="2025-07-18T17:35:30 IST" name="createUser" description="To Verify Create User API is working" finished-at="2025-07-18T17:35:34 IST" duration-ms="3921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
       </class> <!-- com.api.tests.CreateUserAPITest -->
       <class name="com.api.tests.GetUserAPITest">
-        <test-method signature="getUser()[pri:0, instance:com.api.tests.GetUserAPITest@421bba99]" started-at="2025-07-15T18:08:33 IST" name="getUser" description="To Verify GetUser API is working ..!" finished-at="2025-07-15T18:08:35 IST" duration-ms="1175" status="PASS">
+        <test-method signature="getUser()[pri:0, instance:com.api.tests.GetUserAPITest@134d26af]" started-at="2025-07-18T17:35:34 IST" name="getUser" description="To Verify GetUser API is working ..!" finished-at="2025-07-18T17:35:36 IST" duration-ms="1583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUser -->
       </class> <!-- com.api.tests.GetUserAPITest -->
       <class name="com.api.tests.UpdateUserAPITest">
-        <test-method signature="updateUser()[pri:0, instance:com.api.tests.UpdateUserAPITest@134d26af]" started-at="2025-07-15T18:08:35 IST" name="updateUser" description="Verify UpdateUser API is Working..!" finished-at="2025-07-15T18:08:36 IST" duration-ms="1112" status="PASS">
+        <test-method signature="updateUser()[pri:0, instance:com.api.tests.UpdateUserAPITest@797cf65c]" started-at="2025-07-18T17:35:36 IST" name="updateUser" description="Verify UpdateUser API is Working..!" finished-at="2025-07-18T17:35:37 IST" duration-ms="1530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUser -->

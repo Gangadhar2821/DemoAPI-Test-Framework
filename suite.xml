@@ -12,6 +12,8 @@
 			<class name="com.api.tests.CreateUserAPITest" />
 			<class name="com.api.tests.GetUserAPITest" />
 			<class name="com.api.tests.UpdateUserAPITest" />
+			<class name="com.api.tests.DeleteUserAPITest" />
+
 		</classes>
 	</test>
 

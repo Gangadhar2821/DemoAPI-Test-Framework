@@ -1,7 +1,9 @@
 package com.api.models.request;
 
-public class UserRequest {
-	private UserRequest(int id, String username, String firstName, String lastName, String email, String password,
+public class CreateUserRequest {
+
+
+	private CreateUserRequest(int id, String username, String firstName, String lastName, String email, String password,
 			String phone, int userStatus) {
 		super();
 		this.id = id;
@@ -144,9 +146,9 @@ public class UserRequest {
 			return this;
 		}
 
-		public UserRequest build() {
-			UserRequest userRequest = new UserRequest(id, username, firstName, lastName, email, password, phone,
-					userStatus);
+		public CreateUserRequest build() {
+			CreateUserRequest userRequest = new CreateUserRequest(id, username, firstName, lastName, email, password,
+					phone, userStatus);
 			return userRequest;
 		}
 	}
