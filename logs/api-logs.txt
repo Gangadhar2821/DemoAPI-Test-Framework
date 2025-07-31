@@ -6641,3 +6641,492 @@ Server=Jetty(9.2.9.v20150224)
 2025-07-18 17:37:17 [main] INFO  com.api.listeners.TestListener - Passed..!deleteUser
 2025-07-18 17:37:17 [main] INFO  com.api.listeners.TestListener - Description!!Verify DeleteUser API is Working !
 2025-07-18 17:37:17 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 16:43:30 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 16:43:30 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 16:43:30 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 16:43:31 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 16:43:31 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 16:43:31 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":2,"name":"Chimtu","category":{"id":1,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":2,"name":"Street Dog"}],"status":"available"}
+2025-07-31 16:43:34 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 16:43:34 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:13:33 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 16:43:34 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2,
+    "category": {
+        "id": 1,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 2,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 16:43:34 [main] ERROR com.api.listeners.TestListener - Failed..!createPet
+2025-07-31 16:43:34 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 16:45:18 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 16:45:19 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 16:45:19 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 16:45:20 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 16:45:20 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 16:45:20 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":1,"name":"Chimtu","category":{"id":1,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":1,"name":"Street Dog"}],"status":"available"}
+2025-07-31 16:45:22 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 16:45:22 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:15:22 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 16:45:22 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 1,
+    "category": {
+        "id": 1,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 16:45:22 [main] ERROR com.api.listeners.TestListener - Failed..!createPet
+2025-07-31 16:45:22 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 16:46:33 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 16:46:33 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 16:46:33 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 16:51:49 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 16:51:49 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 16:51:49 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 16:51:55 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 16:51:55 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:21:55 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 16:51:56 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775806,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 16:52:20 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 16:52:20 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 16:52:20 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 16:52:22 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 16:52:22 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:22:21 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 16:52:22 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 16:55:47 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 16:55:47 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 16:55:47 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 16:55:48 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 16:55:48 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 16:55:48 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 16:55:50 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 16:55:50 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:25:50 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 16:55:50 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 16:55:50 [main] ERROR com.api.listeners.TestListener - Failed..!createPet
+2025-07-31 16:55:50 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 16:56:24 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 16:56:24 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 16:56:24 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 16:57:17 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 16:57:17 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 16:57:17 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 16:57:23 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 16:57:23 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:27:23 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 16:57:23 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 17:00:33 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:00:33 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 17:00:33 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:00:34 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 17:00:34 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 17:00:34 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 17:00:36 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 17:00:36 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:30:36 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 17:00:36 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 17:00:36 [main] ERROR com.api.listeners.TestListener - Failed..!createPet
+2025-07-31 17:00:36 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:02:23 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:02:23 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 17:02:23 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:02:24 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 17:02:24 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 17:02:24 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 17:02:26 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 17:02:26 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:32:26 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 17:02:26 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 17:02:27 [main] INFO  com.api.listeners.TestListener - Passed..!createPet
+2025-07-31 17:02:27 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:02:27 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:04:56 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:04:57 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 17:04:57 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:04:58 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 17:04:58 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 17:04:58 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 17:05:00 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 17:05:00 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:34:59 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 17:05:00 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 17:05:00 [main] ERROR com.api.listeners.TestListener - Failed..!createPet
+2025-07-31 17:05:00 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:05:22 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:05:23 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 17:05:23 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:05:36 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 17:05:36 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 17:05:36 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 17:05:39 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 17:05:39 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:35:38 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 17:05:39 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 17:06:25 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 17:06:25 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 17:06:25 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 17:06:26 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 17:06:26 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:36:26 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 17:06:26 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 17:07:07 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 17:07:07 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 17:07:07 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 17:07:08 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 17:07:08 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:37:08 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 17:07:08 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 17:07:13 [main] INFO  com.api.listeners.TestListener - Passed..!createPet
+2025-07-31 17:07:13 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:07:13 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:09:11 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:09:11 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 17:09:11 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:09:12 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 17:09:12 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 17:09:12 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 17:09:14 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 17:09:14 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 11:39:14 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 17:09:14 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 17:09:14 [main] INFO  com.api.listeners.TestListener - Passed..!createPet
+2025-07-31 17:09:14 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:09:14 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:30:16 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!
+2025-07-31 17:30:16 [main] INFO  com.api.listeners.TestListener - Started..!createPet
+2025-07-31 17:30:16 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:30:17 [main] INFO  com.api.filters.LoggingFilter - BASE URI : https://petstore.swagger.io/v2
+2025-07-31 17:30:17 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+2025-07-31 17:30:17 [main] INFO  com.api.filters.LoggingFilter - Request PayLoad : {"id":0,"name":"Chimtu","category":{"id":0,"name":"Dog"},"photoUrls":["http://dog.img/1"],"tags":[{"id":0,"name":"Street Dog"}],"status":"available"}
+2025-07-31 17:30:19 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+2025-07-31 17:30:19 [main] INFO  com.api.filters.LoggingFilter - Response Header:Date=Thu, 31 Jul 2025 12:00:19 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2025-07-31 17:30:20 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 9223372036854775807,
+    "category": {
+        "id": 0,
+        "name": "Dog"
+    },
+    "name": "Chimtu",
+    "photoUrls": [
+        "http://dog.img/1"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "Street Dog"
+        }
+    ],
+    "status": "available"
+}
+2025-07-31 17:30:20 [main] INFO  com.api.listeners.TestListener - Passed..!createPet
+2025-07-31 17:30:20 [main] INFO  com.api.listeners.TestListener - Description!!To Verify Create Pet API is Working!
+2025-07-31 17:30:20 [main] INFO  com.api.listeners.TestListener - Test Suite Completed..!

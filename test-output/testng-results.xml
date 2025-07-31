@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-18T17:35:30 IST" name="Demo Bank API Test Suite" finished-at="2025-07-18T17:35:39 IST" duration-ms="8571">
+  <suite started-at="2025-07-31T17:30:16 IST" name="PetStore API Test Suite" finished-at="2025-07-31T17:30:20 IST" duration-ms="3645">
     <groups>
     </groups>
-    <test started-at="2025-07-18T17:35:30 IST" name="API_Test" finished-at="2025-07-18T17:35:39 IST" duration-ms="8571">
-      <class name="com.api.tests.DeleteUserAPITest">
-        <test-method signature="deleteUser()[pri:0, instance:com.api.tests.DeleteUserAPITest@31bcf236]" started-at="2025-07-18T17:35:37 IST" name="deleteUser" description="Verify DeleteUser API is Working !" finished-at="2025-07-18T17:35:39 IST" duration-ms="1468" status="PASS">
+    <test started-at="2025-07-31T17:30:16 IST" name="Regression " finished-at="2025-07-31T17:30:20 IST" duration-ms="3645">
+      <class name="com.api.tests.CreatePetAPITest">
+        <test-method signature="createPet()[pri:0, instance:com.api.tests.CreatePetAPITest@53dbe163]" started-at="2025-07-31T17:30:16 IST" name="createPet" description="To Verify Create Pet API is Working!" finished-at="2025-07-31T17:30:20 IST" duration-ms="3602" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteUser -->
-      </class> <!-- com.api.tests.DeleteUserAPITest -->
-      <class name="com.api.tests.CreateUserAPITest">
-        <test-method signature="createUser()[pri:0, instance:com.api.tests.CreateUserAPITest@1a6c1270]" started-at="2025-07-18T17:35:30 IST" name="createUser" description="To Verify Create User API is working" finished-at="2025-07-18T17:35:34 IST" duration-ms="3921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- com.api.tests.CreateUserAPITest -->
-      <class name="com.api.tests.GetUserAPITest">
-        <test-method signature="getUser()[pri:0, instance:com.api.tests.GetUserAPITest@134d26af]" started-at="2025-07-18T17:35:34 IST" name="getUser" description="To Verify GetUser API is working ..!" finished-at="2025-07-18T17:35:36 IST" duration-ms="1583" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUser -->
-      </class> <!-- com.api.tests.GetUserAPITest -->
-      <class name="com.api.tests.UpdateUserAPITest">
-        <test-method signature="updateUser()[pri:0, instance:com.api.tests.UpdateUserAPITest@797cf65c]" started-at="2025-07-18T17:35:36 IST" name="updateUser" description="Verify UpdateUser API is Working..!" finished-at="2025-07-18T17:35:37 IST" duration-ms="1530" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateUser -->
-      </class> <!-- com.api.tests.UpdateUserAPITest -->
-    </test> <!-- API_Test -->
-  </suite> <!-- Demo Bank API Test Suite -->
+        </test-method> <!-- createPet -->
+      </class> <!-- com.api.tests.CreatePetAPITest -->
+    </test> <!-- Regression  -->
+  </suite> <!-- PetStore API Test Suite -->
 </testng-results>
